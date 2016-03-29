@@ -1,6 +1,20 @@
-import csv,os
+import csv,os,xlrd
 
-file_names = ['user','country','movie','language','topic','director','directs']
+file_names = ['User','Country','Movie','Language','Topic','Director','Directs']
+
+def csv_from_excel():
+    wb = xlrd.open_workbook('project-data.xls')
+    for item in file_names:
+        print item
+        file_names_str = str(item)
+        sh = wb.sheet_by_name(file_names_str)
+        current_csv = open(file_names_str+'.csv', 'wb')
+        wr = csv.writer(current_csv)
+
+        for rownum in xrange(sh.nrows):
+            wr.writerow(sh.row_values(rownum))
+
+        current_csv.close()
 
 def RepresentsInt(s):
     try:
@@ -18,9 +32,18 @@ def populate():
     next(input_file)
     reader = csv.reader(input_file, delimiter=' ')
     for row in reader:
+        # for field in row:
+        #     if isinstance(field, str):
+        #         print field + 'is string'
+        #     else:
+        #         print field + 'is not string'
+        #     for item in field:
+        #         print item
         output_file.write( 'INSERT INTO  %s \nVALUES (%s);\n' %(item_name,row[0]))
     print'File %s.sql is populated.' % item_name
 
+csv_from_excel()
+print 'exported data'
 for item in file_names:
     item_name = str(item)
     with open(item_name + '.csv', 'rb') as input_file:
