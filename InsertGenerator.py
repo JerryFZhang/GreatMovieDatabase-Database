@@ -9,7 +9,7 @@ def csv_from_excel():
         file_names_str = str(item)
         sh = wb.sheet_by_name(file_names_str)
         current_csv = open(file_names_str+'.csv', 'wb')
-        wr = csv.writer(current_csv)
+        wr = csv.writer(current_csv, quoting = csv.QUOTE_ALL)
 
         for rownum in xrange(sh.nrows):
             wr.writerow(sh.row_values(rownum))
@@ -18,10 +18,13 @@ def csv_from_excel():
 
 def RepresentsInt(s):
     try:
-        int(s)
+        float(s)
         return True
     except ValueError:
         return False
+
+def listToStringWithoutBrackets(list1):
+    return str(list1).replace('[','').replace(']','')
 
 def populate():
     # File should be first emptied before inserting sql code.
@@ -30,17 +33,16 @@ def populate():
 
     output_file = open(item_name + '.sql', 'w')
     next(input_file)
-    reader = csv.reader(input_file, delimiter=' ')
+    reader = csv.reader(input_file,delimiter=',')
     for row in reader:
-        # for field in row:
-        #     if isinstance(field, str):
-        #         print field + 'is string'
-        #     else:
-        #         print field + 'is not string'
-        #     for item in field:
-        #         print item
-        output_file.write( 'INSERT INTO  %s \nVALUES (%s);\n' %(item_name,row[0]))
-    print'File %s.sql is populated.' % item_name
+        temp = []
+        for item in row:
+            if RepresentsInt(item):
+                temp.append(int(float(item)))
+            else:
+                temp.append(str(item))
+        output_file.write( 'INSERT INTO  %s \nVALUES (%s);\n' %(item_name,listToStringWithoutBrackets(temp)))
+    # print'File %s.sql is populated.' % item_name
 
 csv_from_excel()
 print 'exported data'

@@ -1,50 +1,50 @@
-INSERT INTO  topic 
-VALUES (T0001,Historical);
-INSERT INTO  topic 
-VALUES (T0002,Drama);
-INSERT INTO  topic 
-VALUES (T0003,Romantic);
-INSERT INTO  topic 
-VALUES (T0004,Biographical);
-INSERT INTO  topic 
-VALUES (T0005,Epic);
-INSERT INTO  topic 
-VALUES (T0006,Science);
-INSERT INTO  topic 
-VALUES (T0007,Servival);
-INSERT INTO  topic 
-VALUES (T0008,War);
-INSERT INTO  topic 
-VALUES (T0009,Thriller);
-INSERT INTO  topic 
-VALUES (T0010,Independent);
-INSERT INTO  topic 
-VALUES (T0011,Psychological);
-INSERT INTO  topic 
-VALUES (T0012,Comedy);
-INSERT INTO  topic 
-VALUES (T0013,Fantasy);
-INSERT INTO  topic 
-VALUES (T0014,Action);
-INSERT INTO  topic 
-VALUES (T0015,Mystery);
-INSERT INTO  topic 
-VALUES (T0016,Crime);
-INSERT INTO  topic 
-VALUES (T0017,Documentary);
-INSERT INTO  topic 
-VALUES (T0018,Disaster);
-INSERT INTO  topic 
-VALUES (T0019,Horror);
-INSERT INTO  topic 
-VALUES (T0020,Cartoon);
-INSERT INTO  topic 
-VALUES (T0021,Opera);
-INSERT INTO  topic 
-VALUES (T0022,Art);
-INSERT INTO  topic 
-VALUES (T0023,Dance);
-INSERT INTO  topic 
-VALUES (T0024,Nior);
-INSERT INTO  topic 
-VALUES (T0025,Sport);
+INSERT INTO  Topic 
+VALUES ('T0001', 'Historical');
+INSERT INTO  Topic 
+VALUES ('T0002', 'Drama');
+INSERT INTO  Topic 
+VALUES ('T0003', 'Romantic');
+INSERT INTO  Topic 
+VALUES ('T0004', 'Biographical');
+INSERT INTO  Topic 
+VALUES ('T0005', 'Epic');
+INSERT INTO  Topic 
+VALUES ('T0006', 'Science fiction');
+INSERT INTO  Topic 
+VALUES ('T0007', 'Servival');
+INSERT INTO  Topic 
+VALUES ('T0008', 'War');
+INSERT INTO  Topic 
+VALUES ('T0009', 'Thriller');
+INSERT INTO  Topic 
+VALUES ('T0010', 'Independent');
+INSERT INTO  Topic 
+VALUES ('T0011', 'Psychological');
+INSERT INTO  Topic 
+VALUES ('T0012', 'Comedy');
+INSERT INTO  Topic 
+VALUES ('T0013', 'Fantasy');
+INSERT INTO  Topic 
+VALUES ('T0014', 'Action');
+INSERT INTO  Topic 
+VALUES ('T0015', 'Mystery');
+INSERT INTO  Topic 
+VALUES ('T0016', 'Crime');
+INSERT INTO  Topic 
+VALUES ('T0017', 'Documentary');
+INSERT INTO  Topic 
+VALUES ('T0018', 'Disaster');
+INSERT INTO  Topic 
+VALUES ('T0019', 'Horror');
+INSERT INTO  Topic 
+VALUES ('T0020', 'Cartoon');
+INSERT INTO  Topic 
+VALUES ('T0021', 'Opera');
+INSERT INTO  Topic 
+VALUES ('T0022', 'Art');
+INSERT INTO  Topic 
+VALUES ('T0023', 'Dance');
+INSERT INTO  Topic 
+VALUES ('T0024', 'Nior');
+INSERT INTO  Topic 
+VALUES ('T0025', 'Sport');

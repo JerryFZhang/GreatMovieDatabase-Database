@@ -1,368 +1,368 @@
 INSERT INTO  Language 
-VALUES (aa,Afar);
+VALUES ('aa', 'Afar');
 INSERT INTO  Language 
-VALUES (ab,Abkhazian);
+VALUES ('ab', 'Abkhazian');
 INSERT INTO  Language 
-VALUES (ae,Avestan);
+VALUES ('ae', 'Avestan');
 INSERT INTO  Language 
-VALUES (af,Afrikaans);
+VALUES ('af', 'Afrikaans');
 INSERT INTO  Language 
-VALUES (ak,Akan);
+VALUES ('ak', 'Akan');
 INSERT INTO  Language 
-VALUES (am,Amharic);
+VALUES ('am', 'Amharic');
 INSERT INTO  Language 
-VALUES (an,Aragonese);
+VALUES ('an', 'Aragonese');
 INSERT INTO  Language 
-VALUES (ar,Arabic);
+VALUES ('ar', 'Arabic');
 INSERT INTO  Language 
-VALUES (as,Assamese);
+VALUES ('as', 'Assamese');
 INSERT INTO  Language 
-VALUES (av,Avaric);
+VALUES ('av', 'Avaric');
 INSERT INTO  Language 
-VALUES (ay,Aymara);
+VALUES ('ay', 'Aymara');
 INSERT INTO  Language 
-VALUES (az,Azerbaijani);
+VALUES ('az', 'Azerbaijani');
 INSERT INTO  Language 
-VALUES (ba,Bashkir);
+VALUES ('ba', 'Bashkir');
 INSERT INTO  Language 
-VALUES (be,Belarusian);
+VALUES ('be', 'Belarusian');
 INSERT INTO  Language 
-VALUES (bg,Bulgarian);
+VALUES ('bg', 'Bulgarian');
 INSERT INTO  Language 
-VALUES (bh,Bihari);
+VALUES ('bh', 'Bihari languages');
 INSERT INTO  Language 
-VALUES (bi,Bislama);
+VALUES ('bi', 'Bislama');
 INSERT INTO  Language 
-VALUES (bm,Bambara);
+VALUES ('bm', 'Bambara');
 INSERT INTO  Language 
-VALUES (bn,Bengali);
+VALUES ('bn', 'Bengali');
 INSERT INTO  Language 
-VALUES (bo,Tibetan);
+VALUES ('bo', 'Tibetan');
 INSERT INTO  Language 
-VALUES (br,Breton);
+VALUES ('br', 'Breton');
 INSERT INTO  Language 
-VALUES (bs,Bosnian);
+VALUES ('bs', 'Bosnian');
 INSERT INTO  Language 
-VALUES (ca,Catalan;);
+VALUES ('ca', 'Catalan; Valencian');
 INSERT INTO  Language 
-VALUES (ce,Chechen);
+VALUES ('ce', 'Chechen');
 INSERT INTO  Language 
-VALUES (ch,Chamorro);
+VALUES ('ch', 'Chamorro');
 INSERT INTO  Language 
-VALUES (co,Corsican);
+VALUES ('co', 'Corsican');
 INSERT INTO  Language 
-VALUES (cr,Cree);
+VALUES ('cr', 'Cree');
 INSERT INTO  Language 
-VALUES (cs,Czech);
+VALUES ('cs', 'Czech');
 INSERT INTO  Language 
-VALUES (cu,Church);
+VALUES ('cu', 'Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic');
 INSERT INTO  Language 
-VALUES (cv,Chuvash);
+VALUES ('cv', 'Chuvash');
 INSERT INTO  Language 
-VALUES (cy,Welsh);
+VALUES ('cy', 'Welsh');
 INSERT INTO  Language 
-VALUES (da,Danish);
+VALUES ('da', 'Danish');
 INSERT INTO  Language 
-VALUES (de,German);
+VALUES ('de', 'German');
 INSERT INTO  Language 
-VALUES (dv,Divehi;);
+VALUES ('dv', 'Divehi; Dhivehi; Maldivian');
 INSERT INTO  Language 
-VALUES (dz,Dzongkha);
+VALUES ('dz', 'Dzongkha');
 INSERT INTO  Language 
-VALUES (ee,Ewe);
+VALUES ('ee', 'Ewe');
 INSERT INTO  Language 
-VALUES (el,"Greek,);
+VALUES ('el', 'Greek, Modern (1453-)');
 INSERT INTO  Language 
-VALUES (en,English);
+VALUES ('en', 'English');
 INSERT INTO  Language 
-VALUES (eo,Esperanto);
+VALUES ('eo', 'Esperanto');
 INSERT INTO  Language 
-VALUES (es,Spanish;);
+VALUES ('es', 'Spanish; Castilian');
 INSERT INTO  Language 
-VALUES (et,Estonian);
+VALUES ('et', 'Estonian');
 INSERT INTO  Language 
-VALUES (eu,Basque);
+VALUES ('eu', 'Basque');
 INSERT INTO  Language 
-VALUES (fa,Persian);
+VALUES ('fa', 'Persian');
 INSERT INTO  Language 
-VALUES (ff,Fulah);
+VALUES ('ff', 'Fulah');
 INSERT INTO  Language 
-VALUES (fi,Finnish);
+VALUES ('fi', 'Finnish');
 INSERT INTO  Language 
-VALUES (fj,Fijian);
+VALUES ('fj', 'Fijian');
 INSERT INTO  Language 
-VALUES (fo,Faroese);
+VALUES ('fo', 'Faroese');
 INSERT INTO  Language 
-VALUES (fr,French);
+VALUES ('fr', 'French');
 INSERT INTO  Language 
-VALUES (fy,Western);
+VALUES ('fy', 'Western Frisian');
 INSERT INTO  Language 
-VALUES (ga,Irish);
+VALUES ('ga', 'Irish');
 INSERT INTO  Language 
-VALUES (gd,Gaelic;);
+VALUES ('gd', 'Gaelic; Scottish Gaelic');
 INSERT INTO  Language 
-VALUES (gl,Galician);
+VALUES ('gl', 'Galician');
 INSERT INTO  Language 
-VALUES (gn,Guarani);
+VALUES ('gn', 'Guarani');
 INSERT INTO  Language 
-VALUES (gu,Gujarati);
+VALUES ('gu', 'Gujarati');
 INSERT INTO  Language 
-VALUES (gv,Manx);
+VALUES ('gv', 'Manx');
 INSERT INTO  Language 
-VALUES (ha,Hausa);
+VALUES ('ha', 'Hausa');
 INSERT INTO  Language 
-VALUES (he,Hebrew);
+VALUES ('he', 'Hebrew');
 INSERT INTO  Language 
-VALUES (hi,Hindi);
+VALUES ('hi', 'Hindi');
 INSERT INTO  Language 
-VALUES (ho,Hiri);
+VALUES ('ho', 'Hiri Motu');
 INSERT INTO  Language 
-VALUES (hr,Croatian);
+VALUES ('hr', 'Croatian');
 INSERT INTO  Language 
-VALUES (ht,Haitian;);
+VALUES ('ht', 'Haitian; Haitian Creole');
 INSERT INTO  Language 
-VALUES (hu,Hungarian);
+VALUES ('hu', 'Hungarian');
 INSERT INTO  Language 
-VALUES (hy,Armenian);
+VALUES ('hy', 'Armenian');
 INSERT INTO  Language 
-VALUES (hz,Herero);
+VALUES ('hz', 'Herero');
 INSERT INTO  Language 
-VALUES (ia,Interlingua);
+VALUES ('ia', 'Interlingua (International Auxiliary Language Association)');
 INSERT INTO  Language 
-VALUES (id,Indonesian);
+VALUES ('id', 'Indonesian');
 INSERT INTO  Language 
-VALUES (ie,Interlingue;);
+VALUES ('ie', 'Interlingue; Occidental');
 INSERT INTO  Language 
-VALUES (ig,Igbo);
+VALUES ('ig', 'Igbo');
 INSERT INTO  Language 
-VALUES (ii,Sichuan);
+VALUES ('ii', 'Sichuan Yi; Nuosu');
 INSERT INTO  Language 
-VALUES (ik,Inupiaq);
+VALUES ('ik', 'Inupiaq');
 INSERT INTO  Language 
-VALUES (io,Ido);
+VALUES ('io', 'Ido');
 INSERT INTO  Language 
-VALUES (is,Icelandic);
+VALUES ('is', 'Icelandic');
 INSERT INTO  Language 
-VALUES (it,Italian);
+VALUES ('it', 'Italian');
 INSERT INTO  Language 
-VALUES (iu,Inuktitut);
+VALUES ('iu', 'Inuktitut');
 INSERT INTO  Language 
-VALUES (ja,Japanese);
+VALUES ('ja', 'Japanese');
 INSERT INTO  Language 
-VALUES (jv,Javanese);
+VALUES ('jv', 'Javanese');
 INSERT INTO  Language 
-VALUES (ka,Georgian);
+VALUES ('ka', 'Georgian');
 INSERT INTO  Language 
-VALUES (kg,Kongo);
+VALUES ('kg', 'Kongo');
 INSERT INTO  Language 
-VALUES (ki,Kikuyu;);
+VALUES ('ki', 'Kikuyu; Gikuyu');
 INSERT INTO  Language 
-VALUES (kj,Kuanyama;);
+VALUES ('kj', 'Kuanyama; Kwanyama');
 INSERT INTO  Language 
-VALUES (kk,Kazakh);
+VALUES ('kk', 'Kazakh');
 INSERT INTO  Language 
-VALUES (kl,Kalaallisut;);
+VALUES ('kl', 'Kalaallisut; Greenlandic');
 INSERT INTO  Language 
-VALUES (km,Central);
+VALUES ('km', 'Central Khmer');
 INSERT INTO  Language 
-VALUES (kn,Kannada);
+VALUES ('kn', 'Kannada');
 INSERT INTO  Language 
-VALUES (ko,Korean);
+VALUES ('ko', 'Korean');
 INSERT INTO  Language 
-VALUES (kr,Kanuri);
+VALUES ('kr', 'Kanuri');
 INSERT INTO  Language 
-VALUES (ks,Kashmiri);
+VALUES ('ks', 'Kashmiri');
 INSERT INTO  Language 
-VALUES (ku,Kurdish);
+VALUES ('ku', 'Kurdish');
 INSERT INTO  Language 
-VALUES (kv,Komi);
+VALUES ('kv', 'Komi');
 INSERT INTO  Language 
-VALUES (kw,Cornish);
+VALUES ('kw', 'Cornish');
 INSERT INTO  Language 
-VALUES (ky,Kirghiz;);
+VALUES ('ky', 'Kirghiz; Kyrgyz');
 INSERT INTO  Language 
-VALUES (la,Latin);
+VALUES ('la', 'Latin');
 INSERT INTO  Language 
-VALUES (lb,Luxembourgish;);
+VALUES ('lb', 'Luxembourgish; Letzeburgesch');
 INSERT INTO  Language 
-VALUES (lg,Ganda);
+VALUES ('lg', 'Ganda');
 INSERT INTO  Language 
-VALUES (li,Limburgan;);
+VALUES ('li', 'Limburgan; Limburger; Limburgish');
 INSERT INTO  Language 
-VALUES (ln,Lingala);
+VALUES ('ln', 'Lingala');
 INSERT INTO  Language 
-VALUES (lo,Lao);
+VALUES ('lo', 'Lao');
 INSERT INTO  Language 
-VALUES (lt,Lithuanian);
+VALUES ('lt', 'Lithuanian');
 INSERT INTO  Language 
-VALUES (lu,Luba-Katanga);
+VALUES ('lu', 'Luba-Katanga');
 INSERT INTO  Language 
-VALUES (lv,Latvian);
+VALUES ('lv', 'Latvian');
 INSERT INTO  Language 
-VALUES (mg,Malagasy);
+VALUES ('mg', 'Malagasy');
 INSERT INTO  Language 
-VALUES (mh,Marshallese);
+VALUES ('mh', 'Marshallese');
 INSERT INTO  Language 
-VALUES (mi,Maori);
+VALUES ('mi', 'Maori');
 INSERT INTO  Language 
-VALUES (mk,Macedonian);
+VALUES ('mk', 'Macedonian');
 INSERT INTO  Language 
-VALUES (ml,Malayalam);
+VALUES ('ml', 'Malayalam');
 INSERT INTO  Language 
-VALUES (mn,Mongolian);
+VALUES ('mn', 'Mongolian');
 INSERT INTO  Language 
-VALUES (mr,Marathi);
+VALUES ('mr', 'Marathi');
 INSERT INTO  Language 
-VALUES (ms,Malay);
+VALUES ('ms', 'Malay');
 INSERT INTO  Language 
-VALUES (mt,Maltese);
+VALUES ('mt', 'Maltese');
 INSERT INTO  Language 
-VALUES (my,Burmese);
+VALUES ('my', 'Burmese');
 INSERT INTO  Language 
-VALUES (na,Nauru);
+VALUES ('na', 'Nauru');
 INSERT INTO  Language 
-VALUES (nb,"Bokmal,);
+VALUES ('nb', 'Bokmal, Norwegian; Norwegian Bokmal');
 INSERT INTO  Language 
-VALUES (nd,"Ndebele,);
+VALUES ('nd', 'Ndebele, North; North Ndebele');
 INSERT INTO  Language 
-VALUES (ne,Nepali);
+VALUES ('ne', 'Nepali');
 INSERT INTO  Language 
-VALUES (ng,Ndonga);
+VALUES ('ng', 'Ndonga');
 INSERT INTO  Language 
-VALUES (nl,Dutch;);
+VALUES ('nl', 'Dutch; Flemish');
 INSERT INTO  Language 
-VALUES (nn,"Norwegian);
+VALUES ('nn', 'Norwegian Nynorsk; Nynorsk, Norwegian');
 INSERT INTO  Language 
-VALUES (no,Norwegian);
+VALUES ('no', 'Norwegian');
 INSERT INTO  Language 
-VALUES (nr,"Ndebele,);
+VALUES ('nr', 'Ndebele, South; South Ndebele');
 INSERT INTO  Language 
-VALUES (nv,Navajo;);
+VALUES ('nv', 'Navajo; Navaho');
 INSERT INTO  Language 
-VALUES (ny,Chichewa;);
+VALUES ('ny', 'Chichewa; Chewa; Nyanja');
 INSERT INTO  Language 
-VALUES (oc,Occitan);
+VALUES ('oc', 'Occitan (post 1500); Provencal');
 INSERT INTO  Language 
-VALUES (oj,Ojibwa);
+VALUES ('oj', 'Ojibwa');
 INSERT INTO  Language 
-VALUES (om,Oromo);
+VALUES ('om', 'Oromo');
 INSERT INTO  Language 
-VALUES (or,Oriya);
+VALUES ('or', 'Oriya');
 INSERT INTO  Language 
-VALUES (os,Ossetian;);
+VALUES ('os', 'Ossetian; Ossetic');
 INSERT INTO  Language 
-VALUES (pa,Panjabi;);
+VALUES ('pa', 'Panjabi; Punjabi');
 INSERT INTO  Language 
-VALUES (pi,Pali);
+VALUES ('pi', 'Pali');
 INSERT INTO  Language 
-VALUES (pl,Polish);
+VALUES ('pl', 'Polish');
 INSERT INTO  Language 
-VALUES (ps,Pushto;);
+VALUES ('ps', 'Pushto; Pashto');
 INSERT INTO  Language 
-VALUES (pt,Portuguese);
+VALUES ('pt', 'Portuguese');
 INSERT INTO  Language 
-VALUES (qu,Quechua);
+VALUES ('qu', 'Quechua');
 INSERT INTO  Language 
-VALUES (rm,Romansh);
+VALUES ('rm', 'Romansh');
 INSERT INTO  Language 
-VALUES (rn,Rundi);
+VALUES ('rn', 'Rundi');
 INSERT INTO  Language 
-VALUES (ro,Romanian;);
+VALUES ('ro', 'Romanian; Moldavian; Moldovan');
 INSERT INTO  Language 
-VALUES (ru,Russian);
+VALUES ('ru', 'Russian');
 INSERT INTO  Language 
-VALUES (rw,Kinyarwanda);
+VALUES ('rw', 'Kinyarwanda');
 INSERT INTO  Language 
-VALUES (sa,Sanskrit);
+VALUES ('sa', 'Sanskrit');
 INSERT INTO  Language 
-VALUES (sc,Sardinian);
+VALUES ('sc', 'Sardinian');
 INSERT INTO  Language 
-VALUES (sd,Sindhi);
+VALUES ('sd', 'Sindhi');
 INSERT INTO  Language 
-VALUES (se,Northern);
+VALUES ('se', 'Northern Sami');
 INSERT INTO  Language 
-VALUES (sg,Sango);
+VALUES ('sg', 'Sango');
 INSERT INTO  Language 
-VALUES (si,Sinhala;);
+VALUES ('si', 'Sinhala; Sinhalese');
 INSERT INTO  Language 
-VALUES (sk,Slovak);
+VALUES ('sk', 'Slovak');
 INSERT INTO  Language 
-VALUES (sl,Slovenian);
+VALUES ('sl', 'Slovenian');
 INSERT INTO  Language 
-VALUES (sm,Samoan);
+VALUES ('sm', 'Samoan');
 INSERT INTO  Language 
-VALUES (sn,Shona);
+VALUES ('sn', 'Shona');
 INSERT INTO  Language 
-VALUES (so,Somali);
+VALUES ('so', 'Somali');
 INSERT INTO  Language 
-VALUES (sq,Albanian);
+VALUES ('sq', 'Albanian');
 INSERT INTO  Language 
-VALUES (sr,Serbian);
+VALUES ('sr', 'Serbian');
 INSERT INTO  Language 
-VALUES (ss,Swati);
+VALUES ('ss', 'Swati');
 INSERT INTO  Language 
-VALUES (st,"Sotho,);
+VALUES ('st', 'Sotho, Southern');
 INSERT INTO  Language 
-VALUES (su,Sundanese);
+VALUES ('su', 'Sundanese');
 INSERT INTO  Language 
-VALUES (sv,Swedish);
+VALUES ('sv', 'Swedish');
 INSERT INTO  Language 
-VALUES (sw,Swahili);
+VALUES ('sw', 'Swahili');
 INSERT INTO  Language 
-VALUES (ta,Tamil);
+VALUES ('ta', 'Tamil');
 INSERT INTO  Language 
-VALUES (te,Telugu);
+VALUES ('te', 'Telugu');
 INSERT INTO  Language 
-VALUES (tg,Tajik);
+VALUES ('tg', 'Tajik');
 INSERT INTO  Language 
-VALUES (th,Thai);
+VALUES ('th', 'Thai');
 INSERT INTO  Language 
-VALUES (ti,Tigrinya);
+VALUES ('ti', 'Tigrinya');
 INSERT INTO  Language 
-VALUES (tk,Turkmen);
+VALUES ('tk', 'Turkmen');
 INSERT INTO  Language 
-VALUES (tl,Tagalog);
+VALUES ('tl', 'Tagalog');
 INSERT INTO  Language 
-VALUES (tn,Tswana);
+VALUES ('tn', 'Tswana');
 INSERT INTO  Language 
-VALUES (to,Tonga);
+VALUES ('to', 'Tonga (Tonga Islands)');
 INSERT INTO  Language 
-VALUES (tr,Turkish);
+VALUES ('tr', 'Turkish');
 INSERT INTO  Language 
-VALUES (ts,Tsonga);
+VALUES ('ts', 'Tsonga');
 INSERT INTO  Language 
-VALUES (tt,Tatar);
+VALUES ('tt', 'Tatar');
 INSERT INTO  Language 
-VALUES (tw,Twi);
+VALUES ('tw', 'Twi');
 INSERT INTO  Language 
-VALUES (ty,Tahitian);
+VALUES ('ty', 'Tahitian');
 INSERT INTO  Language 
-VALUES (ug,Uighur;);
+VALUES ('ug', 'Uighur; Uyghur');
 INSERT INTO  Language 
-VALUES (uk,Ukrainian);
+VALUES ('uk', 'Ukrainian');
 INSERT INTO  Language 
-VALUES (ur,Urdu);
+VALUES ('ur', 'Urdu');
 INSERT INTO  Language 
-VALUES (uz,Uzbek);
+VALUES ('uz', 'Uzbek');
 INSERT INTO  Language 
-VALUES (ve,Venda);
+VALUES ('ve', 'Venda');
 INSERT INTO  Language 
-VALUES (vi,Vietnamese);
+VALUES ('vi', 'Vietnamese');
 INSERT INTO  Language 
-VALUES (vo,Volapuk);
+VALUES ('vo', 'Volapuk');
 INSERT INTO  Language 
-VALUES (wa,Walloon);
+VALUES ('wa', 'Walloon');
 INSERT INTO  Language 
-VALUES (wo,Wolof);
+VALUES ('wo', 'Wolof');
 INSERT INTO  Language 
-VALUES (xh,Xhosa);
+VALUES ('xh', 'Xhosa');
 INSERT INTO  Language 
-VALUES (yi,Yiddish);
+VALUES ('yi', 'Yiddish');
 INSERT INTO  Language 
-VALUES (yo,Yoruba);
+VALUES ('yo', 'Yoruba');
 INSERT INTO  Language 
-VALUES (za,Zhuang;);
+VALUES ('za', 'Zhuang; Chuang');
 INSERT INTO  Language 
-VALUES (zh,Chinese);
+VALUES ('zh', 'Chinese');
 INSERT INTO  Language 
-VALUES (zu,Zulu);
+VALUES ('zu', 'Zulu');
