@@ -2,7 +2,8 @@ SET SEARCH_PATH = 'project';
 
 CREATE TABLE Country (
 	CountryId CHAR(2),
-	Cdescription CHAR(10)
+	Cdescription CHAR(10),
+	PRIMARY KEY (CountryId)
 );
 
 CREATE TABLE Users(
@@ -13,9 +14,9 @@ CREATE TABLE Users(
 	Email CHAR(50) NOT NULL,
 	Year_born INTEGER,
 	Gender CHAR(1), -- The gender is 'M' for male, 'F' for female, and 'U' for undisclosed
+	Rating_count INTEGER DEFAULT 0,
 	PRIMARY KEY (UserId),
-	CHECK (UserId LIKE 'U%' AND Year_born>1900 AND Year_born<2016 
-		AND (Gender='M' OR Gender='F' or Gender='U'))
+	CHECK (UserId LIKE 'U%' AND Year_born>1900 AND Year_born<2016 AND (Gender='M' OR Gender='F' or Gender='U') AND Rating_count<=10)
 );
 
 CREATE TABLE Movie(
@@ -34,7 +35,7 @@ CREATE TABLE Watches(
 	TimeWatched INTEGER,
 	DateWatched Date,
 	PRIMARY KEY (UserId, MovieId, TimeWatched),
-	FOREIGN KEY (UserId) REFERENCES Users,
+	FOREIGN KEY (UserId) REFERENCES Users ON DELETE CASCADE ON UPDATE CASCADE,
 	FOREIGN KEY (MovieId) REFERENCES Movie,
 	CHECK (TimeWatched>0)
 );
@@ -46,8 +47,7 @@ CREATE TABLE Rates(
 	PRIMARY KEY (UserId, MovieId),
 	FOREIGN KEY (UserId) REFERENCES Users,
 	FOREIGN KEY (MovieId) REFERENCES Movie,
-	CHECK (Rating>=0 AND Rating<=10 AND 
-		(SELECT COUNT(UserId) FROM Rates R WHERE UserId=R.UserId)<10)
+	CHECK (Rating>=0 AND Rating<=10
 );
 
 CREATE TABLE Topic(
