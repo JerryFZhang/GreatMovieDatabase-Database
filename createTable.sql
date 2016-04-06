@@ -16,7 +16,8 @@ CREATE TABLE Users(
 	Gender CHAR(1), -- The gender is 'M' for male, 'F' for female, and 'U' for undisclosed
 	Rating_count INTEGER DEFAULT 0,
 	PRIMARY KEY (UserId),
-	CHECK (UserId LIKE 'U%' AND Year_born>1900 AND Year_born<2016 AND (Gender='M' OR Gender='F' or Gender='U') AND Rating_count<=10)
+	CHECK (UserId LIKE 'U%' AND Year_born>1900 AND Year_born<2016
+		AND (Gender='M' OR Gender='F' or Gender='U') AND Rating_count<=10)
 );
 
 CREATE TABLE Movie(
@@ -47,7 +48,7 @@ CREATE TABLE Rates(
 	PRIMARY KEY (UserId, MovieId),
 	FOREIGN KEY (UserId) REFERENCES Users,
 	FOREIGN KEY (MovieId) REFERENCES Movie,
-	CHECK (Rating>=0 AND Rating<=10
+	CHECK (Rating>=0 AND Rating<=10)
 );
 
 CREATE TABLE Topic(
