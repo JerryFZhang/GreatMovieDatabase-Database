@@ -13,12 +13,10 @@ CREATE TABLE Users(
 	First_name CHAR(20),
 	Email CHAR(50) NOT NULL,
 	Year_born INTEGER,
-	Gender CHAR(1), -- The gender is 'M' for male, 'F' for female, and 'U' for undisclosed
+	Gender CHAR(1) DEFAULT 'U', -- The gender is 'M' for male, 'F' for female, and 'U' for undisclosed
 	Rating_count INTEGER DEFAULT 0,
 	PRIMARY KEY (UserId),
-	CHECK (UserId LIKE 'U%' AND Year_born>1900 AND Year_born<2016
-		AND (Gender='M' OR Gender='F' or Gender='U') AND Rating_count<=10)
-);
+	CHECK (UserId LIKE 'U%' AND Year_born>1900 AND Year_born<2016 AND (Gender='M' OR Gender='F' or Gender='U') AND Rating_count<=10));
 
 CREATE TABLE Movie(
 	MovieId CHAR(5),
