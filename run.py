@@ -1,24 +1,24 @@
 import csv,os,xlrd,pandas
-def sheets_names():
-    xl = pandas.ExcelFile(excel)
-    names = xl.sheet_names
-    for item in names:
-        file_names.append(item)
-    print 'Sheets names were being parsed'
-
-def csv_from_excel():
-    wb = xlrd.open_workbook(excel)
-    for item in file_names:
-        file_names_str = str(item)
-        sh = wb.sheet_by_name(file_names_str)
-        current_csv = open(file_names_str+'.csv', 'wb')
-        wr = csv.writer(current_csv, quoting = csv.QUOTE_ALL)
-
-        for rownum in xrange(sh.nrows):
-            wr.writerow(sh.row_values(rownum))
-
-        current_csv.close()
-    print 'CSV files were created.'
+# def sheets_names():
+#     xl = pandas.ExcelFile(excel)
+#     names = xl.sheet_names
+#     for item in names:
+#         file_names.append(item)
+#     print 'Sheets names were being parsed'
+#
+# def csv_from_excel():
+#     wb = xlrd.open_workbook(excel)
+#     for item in file_names:
+#         file_names_str = str(item)
+#         sh = wb.sheet_by_name(file_names_str)
+#         current_csv = open(file_names_str+'.csv', 'wb')
+#         wr = csv.writer(current_csv, quoting = csv.QUOTE_ALL)
+#
+#         for rownum in xrange(sh.nrows):
+#             wr.writerow(sh.row_values(rownum))
+#
+#         current_csv.close()
+#     print 'CSV files were created.'
 
 def check_int(s):
     try:
@@ -48,11 +48,11 @@ def populate():
         output_file.write( 'INSERT INTO  %s \nVALUES (%s);\n' %(item_name,listToStringWithoutBrackets(temp)))
     print'File %s.sql is populated.' % item_name
 
-excel = 'data.xls'
-file_names  = []
-
-sheets_names()
-csv_from_excel()
+# excel = 'data.xls'
+file_names  = ['actor']
+#
+# sheets_names()
+# csv_from_excel()
 for item in file_names:
     item_name = str(item)
     with open(item_name + '.csv', 'rb') as input_file:

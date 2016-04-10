@@ -127,7 +127,6 @@ CREATE TABLE Actor(
 	ActorId CHAR(5),
 	last_name CHAR(20) NOT NULL,
 	first_name CHAR(20) NOT NULL,
-	DateOfBirth DATE,
 	CountryId CHAR(2),
 	PRIMARY KEY (ActorId),
 	FOREIGN KEY (CountryId) REFERENCES Country,
